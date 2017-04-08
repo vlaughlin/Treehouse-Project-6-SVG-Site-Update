@@ -25,15 +25,19 @@ p {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
-  }
+}
+      
+  
 
   a:hover > svg, a:hover {
     color:  #746F6F;
-    
-  }
+    font-size: 120%;
+    transform: scale(1.30);
+    }
 
 a:hover > svg path.st0 {
   fill: #746F6F;
+  
 }
 
 
@@ -97,11 +101,16 @@ footer {
     visibility: hidden;
 }
 
-.corgi {
-  width:170px;
-  height: 170px;
-}
 
+.corgi-fawn,
+.corgi-sable,
+.corgi-red,
+.corgi-blacktan{
+  width:170px;
+  height:170px;
+}
+    
+    
 /* ================================= 
   Media Queries
 ==================================== */
@@ -118,6 +127,7 @@ footer {
  color: #EAAA7F;
 
 }
+       
      
 }
 
