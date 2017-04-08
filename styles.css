@@ -21,14 +21,21 @@ p {
   text-align: left;
 }
 
-a {
+  a, a > svg {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
   }
-  a:hover {
-    color: #111;
+
+  a:hover > svg, a:hover {
+    color:  #746F6F;
+    
   }
+
+a:hover > svg path.st0 {
+  fill: #746F6F;
+}
+
 
 header {
   padding-top: 10px;
