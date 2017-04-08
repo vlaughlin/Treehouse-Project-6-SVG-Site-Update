@@ -18,12 +18,12 @@ p {
 	line-height: 2em;
 	text-align: left;
 }
-a, a>icons {
+a, a>svg {
 	text-decoration: none;
 	color: #39add1;
 	font-weight: 700;
 }
-a:hover>icons, a:hover {
+a:hover>svg, a:hover {
 	color: #746F6F;
 	font-size: 120%;
 	transform: scale(1.30);
